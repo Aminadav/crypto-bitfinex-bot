@@ -1,0 +1,1 @@
+{"name":"transfer","loop":false,"variables":{"walletfrom":"wallet","walletto":"wallet","amount":"number","currency":"currency"}}

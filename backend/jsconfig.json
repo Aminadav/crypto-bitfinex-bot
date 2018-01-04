@@ -1,0 +1,11 @@
+{
+    "files": [
+        "*.js"
+    ],
+    "include": [
+        "*.js"
+    ],
+    "compilerOptions": {
+        "target": "es2015"
+    }
+}

@@ -1,0 +1,1 @@
+{"name":"buy-limit","loop":false,"variables":{"wallet":"wallet","symbol":"symbol","price":"number","amount":"number","maximum_movement":"number"}}

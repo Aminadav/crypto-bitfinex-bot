@@ -1,0 +1,81 @@
+.logger {
+  width:100%;
+  height:150px;
+  overflow-y:scroll;
+  background-color:black;
+  color:white;
+  font-size:14px;
+  font-family:Arial;
+  bottom:0px;
+  position:absolute;
+  left:0px;
+  white-space: pre
+}
+
+.running-bots {
+  background:white;
+  width:100%;
+  height:100px;
+  overflow-y:scroll;
+  border:1px solid gray;
+}
+
+
+body {
+    background-color:black!important;
+    color:white;
+}
+
+textarea{
+  position:absolute;
+    background-color:black;
+    color:green;
+    top:110px;
+    left:40%;
+    width:60%;
+    height:500px;
+}
+button {
+    background-color:black;
+    color:red;
+    padding: 5px;
+    border:1px solid gray;
+}
+button.secondary{
+    color:#984444
+}
+select {
+    background:black;
+    color:white;
+    padding:5px;
+}
+.logger {
+  
+    color:green
+}
+.running-bots {
+    background-color:gray;    
+}
+
+.running-bots table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+::-webkit-scrollbar-track {  
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+::-webkit-scrollbar-button {
+  background: white;
+  height:5px;
+}

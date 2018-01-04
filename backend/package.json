@@ -1,0 +1,35 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "main": "bot-1.js",
+  "dependencies": {
+    "@types/express": "^4.0.39",
+    "EventEmitter": "^1.0.0",
+    "big.js": "^5.0.3",
+    "blessed": "^0.1.81",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "cors": "^2.8.4",
+    "crypto-js": "^3.1.9-1",
+    "event-emitter": "^0.3.5",
+    "eventemitter": "^0.3.3",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "moment-timezone": "^0.5.14",
+    "n-readlines": "^0.2.8",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4",
+    "sqlite": "^2.8.0",
+    "supervisor": "",
+    "ws": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "supervisor -w server.js server.js"
+  }
+}
